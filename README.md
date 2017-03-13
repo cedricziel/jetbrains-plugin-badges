@@ -5,7 +5,7 @@ Displays Badges for JetBrains Plugins.
 ## Installation
 
 ```
-composer create-project cedricziel/jetbrains-plugin-badges badges
+composer create-project cedricziel/jetbrains-plugin-badges badges 1.0
 cd badges
 php -S 127.0.0.1:8000 -t web
 ```
