@@ -4,7 +4,9 @@
     "type": "project",
     "require": {
         "symfony/browser-kit": "^3.2",
-        "silex/silex": "^2.0"
+        "silex/silex": "^2.0",
+        "fabpot/goutte": "^3.2",
+        "symfony/cache": "dev-master"
     },
     "license": "MIT",
     "authors": [
@@ -12,5 +14,10 @@
             "name": "Cedric Ziel",
             "email": "cedric@cedric-ziel.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "CedricZiel\\JetbrainsPluginBadges\\": "src/"
+        }
+    }
 }
