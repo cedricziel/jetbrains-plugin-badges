@@ -13,7 +13,7 @@ $app = new Application();
 $app['plugin-cache'] = function () {
     $dir = dirname(__DIR__.'/../var/cache/plugin/');
 
-    return new FilesystemCache('', 3, $dir);
+    return new FilesystemCache('', 600, $dir);
 };
 
 $app->get(
